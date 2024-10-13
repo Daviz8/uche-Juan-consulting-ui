@@ -1,0 +1,32 @@
+{
+  "name": "uche-juan-consulting",
+  "version": "1.0.0",
+  "description": "a Consulting portfolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "watch": " \"nodemon index.js\" \"npx tailwindcss -i ./public/css/input.css -o --watch\""
+  },
+  "keywords": [
+    "Consulting",
+    "uchejuan",
+    "augustine."
+  ],
+  "author": "Daviz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "roundtable-js": "^0.2.3",
+    "tw-elements": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}

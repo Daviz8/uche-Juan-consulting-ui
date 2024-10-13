@@ -1,0 +1,131 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+     <link href="/css/style.css" rel="stylesheet" />
+     <title>U and C</title>
+   </head>
+   <body>
+     <!-- Navbar -->
+     <nav class="bg-gray-100 px-4 py-3 shadow-md">
+       <div class="flex justify-between items-center">
+         <!-- Logo and Brand -->
+         <div class="flex items-center">
+           <img src="/images/logo.png" alt="Logo" class=" rounded-lg h-20 w-20" />
+           <h1 class=" py-2 text-3xl md:text-4xl sm:text-5xl font-bold ms-2 text-blue-900 ml-2">JUAN CONSULTING</h1>
+         </div>
+ 
+         <!-- Mobile Menu Button -->
+         <div class="md:hidden">
+           <button id="menu-btn" class="text-gray-600 focus:outline-none">
+             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+             </svg>
+           </button>
+         </div>
+ 
+         <!-- Navigation Links -->
+         <ul id="menu" class="hidden md:flex space-x-4">
+           <li><a class="text-gray-600 text-2xl  hover:text-blue-500" href="/about">ABOUT</a></li>
+           <li><a class="text-gray-600 text-2xl  hover:text-blue-500" href="/services">SERVICES</a></li>
+           <li><a class="text-gray-600 text-2xl  hover:text-blue-500" href="/contact">CONTACT</a></li>
+         </ul>
+       </div>
+ 
+       <!-- Mobile Dropdown -->
+       <div id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 mt-4">
+         <a href="/about" class="text-gray-600 hover:text-blue-500">ABOUT</a>
+         <a href="/services" class="text-gray-600 hover:text-blue-500">SERVICES</a>
+         <a href="/contact" class="text-gray-600 hover:text-blue-500">CONTACT</a>
+       </div>
+     </nav>
+ 
+     <!-- Main Content -->
+     <div class="container bg-blue-900 mx-auto px-4 py-10">
+       <div class="grid md:grid-cols-2 gap-8">
+         <!-- Left Section -->
+         <div>
+           <h1  class="text-center my-20 md:my-20 sm:my-20  text-2xl text-white font-bold "> Unlock your potential with expert Consulting & Training in Human Capital Development.</h1>
+         </div>
+ 
+         <!-- Right Section -->
+         <div>
+           <img src="/images/home page vector.png" alt="Start" class="w-full h-auto" />
+         </div>
+       </div>
+ 
+       <!-- Quotes Section -->
+       <div class="text-center my-40 md:my-40 sm:my-56 ">
+         <h1 class="text-2xl text-white font-bold mb-8 animate-bounce  "> " <%= Quote %> "</h1>
+         <img src="/images/plant.png" alt="grow" class="mx-auto h-32" />
+       </div>
+ 
+       <!-- Get Started Button -->
+       <div class="flex justify-center my-10">
+         <a href="/welcome">
+           <button class="bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-800 animate-bounce">Get Started</button>
+         </a>
+       </div>
+     </div>
+`
+     <br>
+  
+ 
+     <!-- Sponsors section -->
+      <br> 
+      <hr class=" mx-auto text-blue-700"> 
+    
+     <h1 class="text-4xl font-bold text-center text-blue-700 mx-0 my-0 py-5"> OUR PARTNERS </h1>
+     <hr class="mx-auto text-blue-700"> 
+<br> 
+     <div class=" my-20 md:my-20 sm:my-20  grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/juan consulting.png" alt="Product 1 Image" class="w-full mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/chaordic global.png"  alt="Product 2 Image" class=" rounded-lg w-full mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/WOFL Network.png" alt="Product 3 Image" class=" rounded-lg w-full mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/clarity.png"  alt="sponsors" class="w-full rounded-lg bg-black mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/grin.png" alt="sponsors" class=" rounded-lg w-full mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/stop the cycle.png" alt="sponsors" class=" rounded-lg w-full mb-4" />
+       </div>
+       <div class="bg-white rounded-lg shadow-md p-6">
+         <img src="/images/the sanctuary missions.png" alt="sponsors" class=" rounded-lg w-full mb-4" />
+       </div>
+     </div>
+ 
+     <!-- Footer -->
+     <footer class="bg-blue-900 text-white py-4 text-center">
+      <div class="flex  py-8 justify-center space-x-4">
+        <a href="https://www.instagram.com/juan_consulting?igsh=MXA0ZHBwOW1jdTRpMA=="><img  class=" w-9 h-9" src="images/instagram.png" alt="instagram" /></a>
+        <a href="https://www.linkedin.com/in/uche-juan-augustine-1b07b321a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img  class=" w-9 h-9" src="images/linkedin.png" alt="linkedin" /></a>
+        <a href="https://www.facebook.com/share/HMxuuAB5JxDuLixE/?mibextid=qi2Omg"><img  class=" w-9 h-9" src="images/facebook.png" alt="facebook" /></a>
+      </div>
+       <p class=" sm:size-1">&copy; 2024 Juan Consulting. All rights reserved.</p>
+     </footer>
+ 
+   <!-- Script for Mobile Menu Toggle -->
+   <script>
+
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("hidden");
+});
+   </script>
+   </body>
+ </html>
+ 

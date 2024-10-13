@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body id="contact">
+
+  <div class="container mx-auto py-8">
+    <h2 class="text-2xl font-bold text-center mb-4 text-blue-900">CONTACT US</h2>
+    <form id="contactForm" class="bg-white rounded-lg shadow-md p-6">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+        <input type="text" id="name" name="name" required class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+        <input type="email" id="email" name="email" required class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+        <textarea id="message" name="message" required class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4"></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="bg-blue-900 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700">Send Message</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Form Validation
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      if (name === '' || email === '' || message === '') {
+        alert('Please fill in all fields');
+        return;
+      }
+
+      // Placeholder for email sending function
+      // Here you can integrate with a service like EmailJS or an API to send the email
+      alert(`Message sent successfully!\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+      // Clear the form
+      document.getElementById('contactForm').reset();
+    });
+  </script>
+  <script src="/tw-elements/dist/js/tw-elements.umd.min.js" type="text/javascript"></script>
+</body>
+</html>
