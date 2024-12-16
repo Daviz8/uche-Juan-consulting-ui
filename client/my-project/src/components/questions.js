@@ -1,0 +1,104 @@
+ const Question = [
+    {"id" : "1",
+    "question" : "What is your end point in life?",
+    "category": "self leadership"},
+    {"id" : "2",
+    "question" : "Do you set clear goals for yourself?",
+    "category": "self leadership"},
+ 
+    {"id" : "3",
+    "question" : "Are you able to motivate yourself to achieve your goals?",
+    "category": "self leadership"},
+ 
+    {"id" : "4",
+    "question" : "Do you regularly seek feedback and learn from your mistakes?",
+    "category": "self leadership"},
+ 
+    {"id" : "5",
+    "question" : "Do you have a strong sense of self-belief and confidence?",
+    "category": "self leadership"},
+ 
+    {"id" : "6",
+    "question" : "Do you feel respected and valued by your partner?",
+    "category": "Marriage"},
+ 
+    {"id" : "7",
+    "question" : "Are you able to identify and manage your own emotions effectively?",
+    "category": "emotional intelligence"},
+ 
+    {"id" : "8",
+    "question" : "Do you and your partner communicate openly and honestly with each other?",
+    "category": "Marriage"},
+ 
+    {"id" : "9",
+    "question" : "Do you have empathy for others and understand their perspectives?",
+    "category": "emotional intelligence"},
+ 
+    {"id" : "10",
+    "question" : "Will you get married?",
+    "category": "Marriage"},
+ 
+
+    {"id" : "11",
+    "question" : "Do you feel comfortable speaking in front of a group of people??",
+    "category": "public speaking"},
+
+
+
+    {"id" : "12",
+    "question" : "Can you control your impulses and avoid impulsive behavior?",
+    "category": "emotional intelligence"},
+    
+
+    {"id" : "13",
+    "question" : "Do you have strong interpersonal skills and build positive relationships with others?",
+    "category": "emotional intelligence"},
+
+    {"id" : "14",
+    "question" : "Do you make an effort to spend quality time with your partner?",
+    "category": "Marriage"},
+
+    {"id" : "15",
+    "question" : "Do you feel that your relationship is based on mutual trust and support?",
+    "category": "Marriage"},
+
+    {"id" : "16",
+    "question" : "Are you able to articulate your thoughts clearly and concisely?",
+    "category": "public speaking"},
+
+    {"id" : "17",
+    "question" : "Do you have good eye contact and body language when speaking?",
+    "category": "public speaking"},
+
+    {"id" : "20",
+    "question" : "Do you practice public speaking regularly to improve your skills?",
+    "category": "public speaking"},
+
+    {"id" : "21",
+    "question" : "Can you control your impulses and avoid impulsive behavior?",
+    "category": "emotional intelligence"},
+
+    {"id" : "22",
+    "question" : "Do you have strong interpersonal skills and build positive relationships with others?",
+    "category": "emotional intelligence"},
+
+    {"id" : "23",
+    "question" : "Do you have a regular exercise routine?",
+    "category": "self leadership"},
+
+    {"id" : "24",
+    "question" : "Do you practice mindfulness or meditation?",
+    "category": "public speaking"},
+
+    {"id" : "25",
+    "question" : "Do you have a hobby or passion that you enjoy?",
+    "category": "marriage"},
+
+    {"id" : "26",
+    "question" : "Do you have a s strong support system of friends and family?",
+    "category": "self leadership"}
+
+    
+]
+
+export default Question

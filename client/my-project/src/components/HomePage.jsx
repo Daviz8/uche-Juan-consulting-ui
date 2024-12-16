@@ -104,7 +104,9 @@ function HomePage() {
               CONTACT
             </a>
           </div>
+
         )}
+        
       </nav>
 
       <div className="container bg-blue-900 mx-auto px-4 py-10">
@@ -131,7 +133,7 @@ function HomePage() {
 
         {/* Get Started Button */}
         <div className="flex justify-center my-10">
-          <a href="/welcome">
+          <a href="/Survey">
             <button className="bg-blue-700 text-white px-6 py-3 rounded-md hover:bg-blue-800 animate-bounce">
               Get Started
             </button>

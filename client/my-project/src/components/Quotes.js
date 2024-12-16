@@ -207,7 +207,7 @@ const quotes = [
 },
 {
 "id" :41, 
-"quotes":"Your right as a man comprises of your power, your identity and your purpose.",
+"quotes":" Your choice determmines your path. One right choice can set you on the right path.",
 "category":"Life"
 },
 {
