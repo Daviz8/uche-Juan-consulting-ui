@@ -140,7 +140,15 @@ function HomePage() {
           </a>
         </div>
       </div>
+      
 
+
+      <div className='mx-auto py-28'>  
+
+<img src='images/The company.png' className='object-fill lg:h-full w-full px-20 mx-auto'/>
+
+
+      </div>
       {/* Sponsors Section */}
       <br />
       <hr className="mx-auto text-blue-700" />

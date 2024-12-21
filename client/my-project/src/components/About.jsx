@@ -23,6 +23,7 @@ function About() {
         <div className="bg-blue-800 text-white bg-opacity-80 relative z-10">
           {/* Container for content */}
           <div className="container mx-auto px-4 py-8">
+            
             {/* First section with image and content */}
             <div className="flex flex-col md:flex-row items-center md:items-start bg-white rounded-lg shadow-lg p-6 space-y-6 md:space-y-0 md:space-x-6">
               {/* About Content */}
