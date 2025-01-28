@@ -29,10 +29,49 @@
       font-family: "Finlandica", sans-serif;
     }
 
+
+
+    @media (min-width: 313px){
+      .bigger{
+    width: 100%;
+      height: 100%; 
+      object-fit: fill;
+    }
+  }
+  
+  
+  
+  
+
+
+/**Services image*/
+
+
+.star-wars:hover{
+
+  animation: 5s linear infinite;
+
+}
+
+@keyframes star-wars{
+from{
+  transform: rotate(0deg) translateX(-20px) rotate(0deg);
+}
+to{
+  transform: rotate(0deg) translateY(20px) rotate(0deg);
+}
+}
+
+
+
+
+
+
+
+
     /** footer*/
 
     
-    Add to your stylesheet
 
 .bg-layers {
     -webkit-animation: filter-animation 4s infinite;

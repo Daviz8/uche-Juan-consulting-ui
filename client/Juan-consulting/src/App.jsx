@@ -18,14 +18,12 @@ function App() {
 
 <BrowserRouter>
     <Routes>
-        {/* Define your routes here */}
         <Route path="/" element={<HomePage />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Contact" element={<Contact/>} />
         <Route path="/About" element={<About />} />
         <Route path="/Survey" element={<Survey />} />
         <Route path="/Question" element={<SurveyQuestions/>} />
-        {/* ... */}
     </Routes>
 </BrowserRouter>
 
