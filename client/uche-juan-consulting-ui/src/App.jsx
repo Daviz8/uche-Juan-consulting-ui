@@ -1,8 +1,8 @@
-import { useState } from 'react'
+
 import HomePage from './components/HomePage';
 import About from './components/About';
 import Services from './components/Services';
-import Contact from './components/contact';
+import Contact from './components/Contact';
 import Survey from './components/Survey';
 import SurveyQuestions from './components/SurveyQuestions';
 
