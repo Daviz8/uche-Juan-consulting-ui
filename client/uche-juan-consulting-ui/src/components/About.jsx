@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unknown-property */
-import { useState } from 'react';
 import Slide from './Slide';
 
 
