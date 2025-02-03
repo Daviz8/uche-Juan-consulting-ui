@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import quotes from './Quotes';
-
+import { TypeAnimation } from 'react-type-animation';
 
 
 function HomePage() {
@@ -111,12 +111,44 @@ function HomePage() {
       </nav>
 
       <div className="container bg-blue-900 mx-auto px-4 py-10">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 ">
           {/* Left Section */}
-          <div>
-            <h1 className="text-center my-20 md:my-20 sm:my-20 text-2xl text-white font-bold">
-              Unlock your potential with expert Consulting & Training in Human Capital
-              Development.
+          <div className="py-16">
+            <h1>
+            <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Unlock your potential with expert Consulting and Training in Human Capital Development.',  
+       1000,
+
+        'Empower yourself with Leadership and Relationship Management skills.',
+     1000,
+
+    
+        'Forge fulfilling relationships and happy homes.',
+     1000,
+
+        'Discover your purpose and rise to prominence in your chosen domain.',
+     1000,
+
+        'Make a significant impact on a global scale.',
+     1000,
+
+        'Join us today to become a powerful contributor to society.',
+     1000,
+
+        'Juan Consulting - Empowering you to dominate your field.',
+        100,
+
+
+      ]}
+
+      wrapper="span"
+      className="text-center my-20 md:my-20 sm:my-20 text-2xl text-white font-bold"
+      speed={150}
+
+      repeat={Infinity}
+    />
             </h1>
           </div>
 

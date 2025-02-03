@@ -29,7 +29,7 @@ function About() {
               {/* About Content */}
               <div className="flex-1">
                 <h1 className="text-4xl font-bold text-blue-900 mb-4 text-center md:text-left"> Juan Consulting </h1>
-                <p className="text-md md:text-lg text-blue-900 font-serif font-bold">
+                <p className="text-md md:text-lg text-black font-serif font-bold">
                 Juan Consulting is a premier training, consulting, and human capital development firm that is dedicated to empowering executives, staff, and youth in leadership, relationship management, and personal development.<br/><br/>
 
 We inspire, impact, and influence individuals from diverse backgrounds to uncover their potential and excel in their areas of expertise, enabling them to dominate their fields.<br/><br/>
@@ -55,7 +55,7 @@ Join us to become a powerful contributor to society and make a significant impac
 
               {/* Bio Content */}
               <div className="flex-1">
-                <p className="text-md md:text-lg font-bold font-serif text-blue-800">
+                <p className="text-md md:text-lg font-bold font-serif text-black">
                   Uche Juan Augustine is a trained Petroleum Engineer and the Africa Sales Director of Unicat Catalyst
                   in the United States.
                   <br />
