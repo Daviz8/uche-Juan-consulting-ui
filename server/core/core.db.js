@@ -1,3 +1,4 @@
+import { DbPassword } from "./core.secrets";
 import pg from "pg";
 
 // Create a new connection to the database
@@ -7,7 +8,7 @@ const db = new pg.Client({
     user: "postgres",
     host: "localhost",
     database: "perntodo",
-    password: "Money123",
+    password: DbPassword ,
     port: 5432,
   
   });
