@@ -18,6 +18,9 @@ function HomePage() {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
+const handleClick = () => {
+window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvixfA6GaDDe/view?usp=drivesdk";
+}
   return (
     <>
       <nav className="bg-gray-100 px-4 py-3 shadow-md">
@@ -191,8 +194,8 @@ function HomePage() {
       <h1 className="text-4xl font-bold text-center text-blue-700 mx-0 my-0 py-5">OUR PARTNERS</h1>
       <hr className="mx-auto text-blue-700" />
       <br />
-      <div className="my-20 md:my-20 sm:my-20 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
-        <div className="bg-white rounded-lg shadow-md p-6">
+      <div className=" mx-auto my-20 md:my-20 sm:my-20 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="bg-white  rounded-lg shadow-md p-6">
           <img src="/images/juan consulting.png" alt="Product 1 Image" className="w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
@@ -208,7 +211,9 @@ function HomePage() {
           <img src="/images/grin.png" alt="sponsors" className="rounded-lg w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/stop the cycle.png" alt="sponsors" className="rounded-lg w-full mb-4" />
+       
+          <img onClick={handleClick}  src="/images/stop the cycle.png" alt="sponsors" className="rounded-lg w-full mb-4" />
+
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
           <img src="/images/the sanctuary missions.png" alt="sponsors" className="rounded-lg w-full mb-4" />
@@ -221,7 +226,7 @@ function HomePage() {
             <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
                 <div className="w-full space-x-12 flex justify-center text-gray-300 sm:w-7/12 md:justify-start">
                     <ul className="list-disc list-inside space-y-8">
-                        <li><a href="/Services" className="hover:text-sky-400 transition">Services</a></li>
+                        <li onClick={handleClick} className="hover:text-sky-400 transition">Stop The Cycle</li>
 
                         <li><a href="/About" className="hover:text-sky-400 transition">About</a></li>
                 
