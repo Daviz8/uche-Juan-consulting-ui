@@ -27,7 +27,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
         <div className="flex justify-between items-center">
           {/* Logo and Brand */}
           <div className="flex items-center">
-            <img src="/images/logo.png" alt="Logo" className="rounded-lg h-20 w-20" />
+            <img src="/images/logo.Webp" alt="Logo" className="rounded-lg h-20 w-20" />
             <h1 className="py-2 text-3xl md:text-4xl sm:text-5xl font-bold ms-2 text-blue-900 ml-2">
               JUAN CONSULTING
             </h1>
@@ -38,11 +38,11 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
             <button
               id="menu-btn"
               onClick={toggleMobileMenu}
-              className="text-gray-600 focus:outline-none"
+              className="text-gray-600 focus:outline-none w-12"
             >
               {isMobileMenuOpen ? (
                 <svg
-                  className="w-6 h-6"
+                  className="w-12 h-12"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
                 </svg>
               ) : (
                 <svg
-                  className="w-6 h-6"
+                  className="w-12 h-12"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -77,12 +77,12 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
           {/* Navigation Links */}
           <ul className="hidden md:flex space-x-4">
             <li>
-              <a className="text-gray-600 text-2xl hover:text-blue-500" href="/About">
+              <a className="text-gray-600 text-2xl hover:text-blue-500 hover:font-bold" href="/About">
                 ABOUT
               </a>
             </li>
             <li>
-              <a className="text-gray-600 text-2xl hover:text-blue-500" href="/Services">
+              <a className="text-gray-600 text-2xl hover:text-blue-500 hover:font-bold" href="/Services">
                 SERVICES
               </a>
             </li>
@@ -97,10 +97,10 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
         {/* Mobile Dropdown */}
         {isMobileMenuOpen && (
           <div id="mobile-menu" className="md:block flex flex-col space-y-2 mt-4">
-            <a href="/about" className="text-gray-600 text-lg hover:text-blue-500">
+            <a href="/about" className="text-gray-600 text-lg hover:text-blue-500 hover:font-bold">
               ABOUT
             </a>
-            <a href="/services" className="text-gray-600 text-lg hover:text-blue-500">
+            <a href="/services" className="text-gray-600 text-lg hover:text-blue-500 hover:font-bold">
               SERVICES
             </a>
            
@@ -157,14 +157,14 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
 
           {/* Right Section */}
           <div>
-            <img src="/images/home page vector.png" alt="Start" className="w-full h-auto" />
+            <img src="/images/home page vector.Webp" alt="Start" className="w-full h-auto" />
           </div>
         </div>
 
         {/* Quotes Section */}
         <div className="text-center my-40 md:my-40 sm:my-56">
           <h1 className="text-2xl text-white font-bold mb-8 animate-bounce"> {Quotes} </h1>
-          <img src="/images/plant.png" alt="grow" className="mx-auto h-32" />
+          <img src="/images/plant.Webp" alt="grow" className="mx-auto h-32" />
         </div>
 
         {/* Get Started Button 
@@ -182,7 +182,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
 
       <div className='mx-auto py-28'>  
       <img 
-  src='images/The company.png' 
+  src='images/The company.Webp' 
   className="bigger object-fill w-full h-auto sm:w-full sm:h-full lg:w-full lg:h-full px-20 mx-auto"
 />
 
@@ -196,27 +196,27 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
       <br />
       <div className=" mx-auto my-20 md:my-20 sm:my-20 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-8">
         <div className="bg-white  rounded-lg shadow-md p-6">
-          <img src="/images/juan consulting.png" alt="Product 1 Image" className="w-full mb-4" />
+          <img src="/images/juan consulting.Webp" alt="Product 1 Image" className="w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/chaordic global.png" alt="Product 2 Image" className="rounded-lg w-full mb-4" />
+          <img src="/images/chaordic global.Webp" alt="Product 2 Image" className="rounded-lg w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/WOFL Network.png" alt="Product 3 Image" className="rounded-lg w-full mb-4" />
+          <img src="/images/WOFL Network.Webp" alt="Product 3 Image" className="rounded-lg w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/clarity.png" alt="sponsors" className="w-full rounded-lg bg-black mb-4" />
+          <img src="/images/clarity.Webp" alt="sponsors" className="w-full rounded-lg bg-black mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/grin.png" alt="sponsors" className="rounded-lg w-full mb-4" />
+          <img src="/images/grin.Webp" alt="sponsors" className="rounded-lg w-full mb-4" />
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
        
-          <img onClick={handleClick}  src="/images/stop the cycle.png" alt="sponsors" className="rounded-lg w-full mb-4" />
+          <img onClick={handleClick}  src="/images/stop the cycle.Webp" alt="sponsors" className="rounded-lg w-full mb-4" />
 
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <img src="/images/the sanctuary missions.png" alt="sponsors" className="rounded-lg w-full mb-4" />
+          <img src="/images/the sanctuary missions.Webp" alt="sponsors" className="rounded-lg w-full mb-4" />
         </div>
       </div>
       
@@ -237,7 +237,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
                      
                         <li>
                             <a href="https://www.linkedin.com/in/uche-juan-augustine-1b07b321a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="flex items-center space-x-3 hover:text-sky-400 transition">
-                                <img src='/images/linkedin.png'  className="w-5">
+                                <img src='/images/linkedin.Webp'  className="w-5">
                                 </img>
                                 <span>linkedln</span>
                             </a>
@@ -269,7 +269,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
                     <span className="block text-gray-300">Daviz  &copy; 2024</span>
 
                     <span className="flex justify-between text-white">
-                        <a href="#" className="font-semibold"> Partner with Stop the cycle initiative today </a> 
+                        <p className="font-semibold"> Partner with Stop the cycle initiative today </p> 
                     </span>
 
                     <span className="block text-gray-300">Need help? <a href="/" className="font-semibold text-white"> Contact Us</a></span>

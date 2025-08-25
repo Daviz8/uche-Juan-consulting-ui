@@ -50,7 +50,7 @@ Join us to become a powerful contributor to society and make a significant impac
             <div className="flex flex-col md:flex-row items-center md:items-start bg-white rounded-lg shadow-lg p-6 mt-8 space-y-6 md:space-y-0 md:space-x-6">
               {/* Bio Image */}
               <div className="flex-shrink-0">
-                <img src="/images/1.png" alt="Convener" className="w-40 h-auto md:w-60 rounded-lg" />
+                <img src="/images/1.Webp" alt="Convener" className="w-40 h-auto md:w-60 rounded-lg" />
               </div>
 
               {/* Bio Content */}

@@ -57,7 +57,7 @@ const quotes = [
 },
 {
 "id" :11, 
-"quotes":"The world will give you a new language if the word of God does not create your vocabulary" ,
+"quotes":"starve your distraction, so it does'nt cause you losses" ,
 "category":"Supernatural"
 },
 {

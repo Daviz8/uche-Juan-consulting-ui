@@ -35,7 +35,7 @@ Explore what our core services is all about <br/><br/>
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="images/value.png" alt="Self Leadership" className="w-full mb-4" />
+              <img src="images/value.Webp" alt="Self Leadership" className="w-full mb-4" />
               <h2 className="text-2xl text-black font-semibold mb-2 ">Self Leadership</h2>
               <p className="text-black font-serif font-bold py-9 leading-8">
               Our self-leadership programs are designed to help you take control of your life, make better decisions, and achieve your goals.<br/> <br/> Through workshops and one-on-one coaching sessions, you'll learn to identify your values, set priorities, and develop the <span className='text-red-600'> self-discipline </span>  to overcome obstacles. <br/><br/> Whether you're looking to improve your career, relationships, or personal well-being, our programs will help you build the confidence and resilience to succeed.
@@ -44,7 +44,7 @@ Explore what our core services is all about <br/><br/>
             <div className="bg-white rounded-lg shadow-md p-6">
              <div className='star-wars'>
               <img
-                src="/images/love.png"
+                src="/images/love.Webp"
                 alt="Marriage Counselling"
                 className="w-full mb-4 "
               />
@@ -62,7 +62,7 @@ Whether you're preparing for a lifelong commitment or looking to strengthen your
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <img src="/images/eq.png" alt="Emotional Intelligence" className="w-full mb-4" />
+              <img src="/images/eq.Webp" alt="Emotional Intelligence" className="w-full mb-4" />
               <h2 className="text-2xl text-black  font-semibold mb-2">Emotional Intelligence</h2>
               <p className="text-black font-bold font-serif leading-8 py-9">
               Transform the way you connect with others through our emotional intelligence consulting. <br/><br/> We help you recognize and <span className='text-red-600'> manage your emotions, foster empathy, and strengthen relationships—skills </span>  essential for thriving in the dynamic landscape of capital cities. Whether you’re a leader, team member, or entrepreneur, our programs will equip you with the tools to navigate diverse interactions with clarity and poise.
@@ -70,7 +70,7 @@ Whether you're preparing for a lifelong commitment or looking to strengthen your
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
               <img
-                src="/images/public speaking.png"
+                src="/images/public speaking.Webp"
                 alt="Public Speaking"
                 className="w-full mb-4"
               />
