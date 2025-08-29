@@ -234,9 +234,9 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
 
 <section>  
   <br /> <br />
-   <hr className="mx-auto text-white" />
-      <h1 className="text-4xl Mont font-bold text-center text-white mx-0 my-0 py-5 sm:text-black">TESTIMNONIALS</h1>
-      <hr className="mx-auto text-white" />
+   <hr className="mx-auto  sm:text-black lg:text-white" />
+      <h1 className="text-4xl Mont font-bold text-center lg:text-white mx-0 my-0 py-5 sm:text-black">TESTIMNONIALS</h1>
+      <hr className="mx-auto lg:text-white  sm:text-black" />
      
      <br /><br />
        <Carousel className='mx-11' swipeable={true}  customTransition="all .5"
@@ -278,9 +278,9 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
       </div>
         <div className=" py-2">
       {/* Heading */}
-      <hr className="mx-auto text-white w-1/2" />
-      <h1 className="text-4xl font-bold text-center text-white py-2 Mont sm:text-black">OUR PARTNERS</h1>
-      <hr className="mx-auto text-white w-1/2" />
+      <hr className="mx-auto lg:text-white sm:text-black w-1/2" />
+      <h1 className="text-4xl font-bold text-center lg:text-white py-2 Mont sm:text-black">OUR PARTNERS</h1>
+      <hr className="mx-auto lg:text-white w-1/2 sm:text-black"  />
 
       {/* Carousel */}
       <div className="max-w-4xl mx-auto mt-10 px-4">
