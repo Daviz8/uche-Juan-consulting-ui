@@ -107,7 +107,7 @@ function Slide() {
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:translate-y-10 transition duration-300">
             <div className="h-full w-full bg-white rounded-lg shadow-2xl">
-              <img src="/images/wnr.Webp" className="w-full h-full object-cover" />
+              <img src="/images/crowd.Webp" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ function Slide() {
         <div className="h-32 w-32 lg:h-40 lg:w-40 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:translate-x-20 transition duration-300">
-            <div className="h-full w-full bg-white rounded-lg shadow-2xl"> <img src="/images/stargazing uche juan.Webp" className="w-full h-full object-cover" /></div>
+            <div className="h-full w-full bg-white rounded-lg shadow-2xl"> <img src="/images/red carpet 3.Webp" className="w-full h-full object-cover" /></div>
           </div>
         </div>
       </section>
