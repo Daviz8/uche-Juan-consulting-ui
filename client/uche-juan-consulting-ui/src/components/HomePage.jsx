@@ -78,11 +78,11 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
             <button
               id="menu-btn"
               onClick={toggleMobileMenu}
-              className="text-gray-600 focus:outline-none w-14"
+              className="text-black-600  focus:outline-none w-14 sm:w-20"
             >
               {isMobileMenuOpen ? (
                 <svg
-                  className="w-10 h-10"
+                  className="w-36 h-36"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -97,8 +97,9 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
                 </svg>
               ) : (
                 <svg
-                  className="w-12 h-12"
-                  fill="none"
+                  className="w-36 h-36 "
+                  style={{color:'black'}}
+                  fill='black'
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,12 +118,12 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
           {/* Navigation Links */}
           <ul className="hidden md:flex space-x-4">
             <li>
-              <a className="text-gray-600 text-2xl hover:text-blue-500 hover:font-bold" href="/About">
+              <a className="text-gray-600 text-2xl font-semibold hover:text-blue-500 hover:font-bold" href="/About">
                 ABOUT
               </a>
             </li>
             <li>
-              <a className="text-gray-600 text-2xl hover:text-blue-500 hover:font-bold" href="/Services">
+              <a className="text-gray-600 font-semibold text-2xl hover:text-blue-500 hover:font-bold" href="/Services">
                 SERVICES
               </a>
             </li>
@@ -219,7 +220,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
 <div className="bgg bgg2"></div>
 <div className="bgg bgg3"></div>
 <div className="contents">
-  <h1 className="text-3xl text-white font-extrabold mb-8 animate-bounce Special-Elite "> "{Quotes}" </h1>
+  <h1 className="text-3xl lg:text-white font-extrabold mb-8 animate-bounce Special-Elite  sm:text-black"> "{Quotes}" </h1>
           <img src="/images/quote-icon.Webp" alt="grow" className="mx-auto h-12 border bg-white animate-pulse" />
 </div>
         </div>
@@ -321,12 +322,15 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
       <li><a href="/" className="hover:text-sky-400">Contact</a></li>
     </ul>
 
+<br />
     {/* Social links */}
     <div className="flex gap-4">
       <a href="https://linkedin.com/in/uche-juan-augustine" className="hover:text-sky-400"><img src='/images/linkedin.Webp' className='w-11 hover:animate-bounce'/> </a>
       <a href="https://facebook.com/share/15mF4WDbD7" className="hover:text-sky-400"> <img src="images/facebook.Webp" className='w-11 hover:animate-bounce'/></a>
       <a href="https://instagram.com/uchejuan_augustine" className="hover:text-sky-400"> <img src="images/instagram.Webp" className='w-11 hover:animate-bounce'/></a>
     </div>
+
+<br />
 
     {/* Right side */}
     <div className="text-center md:text-right">
