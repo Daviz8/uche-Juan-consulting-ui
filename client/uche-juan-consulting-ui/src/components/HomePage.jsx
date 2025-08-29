@@ -82,7 +82,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
             >
               {isMobileMenuOpen ? (
                 <svg
-                  className="w-36 h-36"
+                  className="w-32 h-32"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -97,7 +97,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
                 </svg>
               ) : (
                 <svg
-                  className="w-36 h-36 "
+                  className="w-32 h-32 "
                   style={{color:'black'}}
                   fill='black'
                   stroke="currentColor"
