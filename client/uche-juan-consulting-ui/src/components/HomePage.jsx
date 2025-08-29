@@ -213,7 +213,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
         */}
       </div>
       
-
+<br /><br />
         {/* Quotes Section */}
         <div className="text-center p-20 lg:my-10  md:my-20 sm:my-20">
           <div className="bgg"></div>
@@ -235,7 +235,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
 <section>  
   <br /> <br />
    <hr className="mx-auto text-white" />
-      <h1 className="text-4xl Mont font-bold text-center text-white mx-0 my-0 py-5">TESTIMNONIALS</h1>
+      <h1 className="text-4xl Mont font-bold text-center text-white mx-0 my-0 py-5 sm:text-black">TESTIMNONIALS</h1>
       <hr className="mx-auto text-white" />
      
      <br /><br />
@@ -279,7 +279,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
         <div className=" py-2">
       {/* Heading */}
       <hr className="mx-auto text-white w-1/2" />
-      <h1 className="text-4xl font-bold text-center text-white py-2 Mont">OUR PARTNERS</h1>
+      <h1 className="text-4xl font-bold text-center text-white py-2 Mont sm:text-black">OUR PARTNERS</h1>
       <hr className="mx-auto text-white w-1/2" />
 
       {/* Carousel */}
@@ -323,6 +323,7 @@ window.location.href = "https://drive.google.com/file/d/1gekdrg4JTXGoJvInyY8HOvi
     </ul>
 
 <br />
+
     {/* Social links */}
     <div className="flex gap-4">
       <a href="https://linkedin.com/in/uche-juan-augustine" className="hover:text-sky-400"><img src='/images/linkedin.Webp' className='w-11 hover:animate-bounce'/> </a>
