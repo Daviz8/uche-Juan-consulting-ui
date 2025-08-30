@@ -14,12 +14,12 @@ function About() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="images/bg blue.mp4" type="video/mp4" />
+          <source src="images/blue.mp4" type="video/mp4" />
   
         </video>
 
         {/* Overlay Container */}
-        <div className="bg-blue-800 text-white bg-opacity-80 relative z-10">
+        <div className=" text-white bg-opacity-80 relative z-10">
           
           {/* Container for content */}
           <div className="container mx-auto px-4 py-8">
@@ -28,8 +28,8 @@ function About() {
             <div className="flex flex-col md:flex-row items-center md:items-start bg-white rounded-lg shadow-lg p-6 space-y-6 md:space-y-0 md:space-x-6">
               {/* About Content */}
               <div className="flex-1">
-                <h1 className="text-4xl font-bold text-blue-900 mb-4 text-center md:text-left"> Juan Consulting </h1>
-                <p className="text-md md:text-lg text-black font-serif font-bold">
+                <h1 className="text-4xl font-bold text-blue-900 mb-4 text-center md:text-left Mont"> Juan Consulting </h1>
+                <p className="text-md md:text-lg text-black font-serif font-semibold Mont">
                 Juan Consulting is a premier training, consulting, and human capital development firm that is dedicated to empowering executives, staff, and youth in leadership, relationship management, and personal development.<br/><br/>
 
 We inspire, impact, and influence individuals from diverse backgrounds to uncover their potential and excel in their areas of expertise, enabling them to dominate their fields.<br/><br/>
@@ -55,7 +55,7 @@ Join us to become a powerful contributor to society and make a significant impac
 
               {/* Bio Content */}
               <div className="flex-1">
-                <p className="text-md md:text-lg font-bold font-serif text-black">
+                <p className="text-md md:text-lg font-semibold font-serif text-black Mont">
                   Uche Juan Augustine is a trained Petroleum Engineer and the Africa Sales Director of Unicat Catalyst
                   in the United States.
                   <br />
