@@ -85,7 +85,6 @@ function HomePage() {
           <div id="mobile-menu" className="md:block flex flex-col space-y-2 mt-4">
             <a href="/about" className="text-gray-600 text-lg hover:text-blue-500 hover:font-bold">ABOUT</a>
             <a href="/services" className="text-gray-600 text-lg hover:text-blue-500 hover:font-bold">SERVICES</a>
-            <a href="/contact" className="text-gray-600 text-lg hover:text-blue-500">CONTACT</a>
           </div>
         )}
       </nav>

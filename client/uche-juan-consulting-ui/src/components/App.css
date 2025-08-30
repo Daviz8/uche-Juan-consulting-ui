@@ -148,3 +148,67 @@ svg{
         transform:scale(.8);
     }
 }
+
+
+/* Contact Me*/
+/* From Uiverse.io by Yaya12085 */ 
+
+.form-container {
+  max-width: 320px; 
+  width: 100%;       
+  border-radius: 0.75rem;
+  background-color: rgb(0, 63, 197);
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-top: 0.25rem;
+  line-height: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  color: rgb(255, 255, 255);
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid rgb(0, 0, 0);
+  outline: 0;
+  background-color: #FFFFFF;
+  padding: 0.75rem 1rem;
+}
+
+.input-group input:focus {
+  border-color: rgb(7, 7, 7);
+}
+
+
+.sign {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  text-align: center;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  background-color: black;
+}
+
+
+
+
